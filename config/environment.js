@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = function(environment) {
-  let ENV = {
+  var ENV = {
     modulePrefix: 'super-rentals',
     environment,
     rootURL: '/',
@@ -18,6 +18,12 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: 'AIzaSyCa2zaw6QoiBZx71ZABmaMD1S0BruCMj1k',
+      authDomain: 'super-rentals-6bd1c.firebaseapp.com',
+      databaseURL: 'https://super-rentals-6bd1c.firebaseio.com',
+      storageBucket:'super-rentals-6bd1c.appspot.com',
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
